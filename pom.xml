@@ -31,15 +31,15 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-					<uri>https://anypoint.mulesoft.com</uri>
-					<muleVersion>${version}</muleVersion>
-					<applicationName>${appName}</applicationName>
-					<environment>${env}</environment>
-					<username>${username}</username>
-					<password>${password}</password>
-					<workers>${workers}</workers>
-					<workerType>MICRO</workerType>
-					<objectStoreV2>true</objectStoreV2>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>${version}</muleVersion>
+						<applicationName>${appName}</applicationName>
+						<environment>${env}</environment>
+						<username>${username}</username>
+						<password>${password}</password>
+						<workers>${workers}</workers>
+						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
