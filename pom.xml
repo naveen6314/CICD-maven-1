@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>cicd-maven-1</artifactId>
+	<artifactId>simple-3</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>cicd-maven-1</name>
+	<name>simple-3</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,12 +33,11 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${version}</muleVersion>
-						<applicationName>${appName}</applicationName>
-						<environment>${env}</environment>
-						<username>${username}</username>
-						<password>${password}</password>
-						<workers>${workers}</workers>
+						<muleVersion>4.3.0</muleVersion>
+						<applicationName>simple-3</applicationName>
+						<username>Naveen9652335353</username>
+						<password>nav@335353</password>
+						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
@@ -59,13 +59,7 @@
             <version>1.2.0</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-		<dependency>
-            <groupId>org.mule.connectors</groupId>
-            <artifactId>mule-db-connector</artifactId>
-            <version>1.9.1</version>
-            <classifier>mule-plugin</classifier>
-        </dependency>
-    </dependencies>
+	</dependencies>
 
 	<repositories>
           <repository>
