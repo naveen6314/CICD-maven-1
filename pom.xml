@@ -35,6 +35,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
 						<applicationName>simple-3</applicationName>
+						<environment>Sandbox</environment>
 						<username>Naveen9652335353</username>
 						<password>Nav@335353</password>
 						<workers>1</workers>
