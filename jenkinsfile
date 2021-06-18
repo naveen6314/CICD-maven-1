@@ -2,19 +2,17 @@ pipeline
 {
 	agent any
 	stages{
-		stage('maven checkout')
+		
+		 stage('maven build')
 		 {
+		 bat 'mvn clean install'
 		 }
 		 stage('maven Munit test')
 		 {
-		   bat mvn test
-		 }
-		 stage('maven build')
-		 {
-		 bat mvn clean install
+		   bat 'mvn test'
 		 }
 		 stage('maven deploy')
 		 {
-		 bat mvn package deploy -DmuleDeploy
+		 bat 'mvn package deploy -DmuleDeploy'
 		 }
 }
