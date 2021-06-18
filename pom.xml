@@ -36,7 +36,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<applicationName>simple-3</applicationName>
 						<username>Naveen9652335353</username>
-						<password>nav@335353</password>
+						<password>Nav@335353</password>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
